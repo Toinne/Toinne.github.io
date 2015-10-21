@@ -366,7 +366,7 @@
                 var updateTimer = function() {
                     var stamp = countdown - (new Date().getTime() - start.getTime());
 
-                    timer[x].innerHTML = millisecondsToStr(stamp);
+                    timer.innerHTML = millisecondsToStr(stamp);
                     requestAnimationFrame(updateTimer);
                 };
 
